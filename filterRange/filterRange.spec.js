@@ -1,4 +1,4 @@
-const filterRange = require('./main')
+const filterRange = require('./filterRange')
 
 // describe("filterRange", function() {
 
