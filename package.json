@@ -1,5 +1,5 @@
 {
-    "name":"camelize",
+    "name":"array-methods-practice",
     "version":"1.0.0",
     "description":"Change dash separated words to camelCase",
     "main":"main.js",
