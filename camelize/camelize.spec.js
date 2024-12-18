@@ -18,7 +18,7 @@
   
 //   });
 
-const camelize = require('./main')
+const camelize = require('./camelize')
 
 describe('camelize', () => {
   test('leaves an empty line as is', () => {
