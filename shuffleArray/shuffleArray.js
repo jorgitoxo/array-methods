@@ -1,3 +1,5 @@
+// Shuffle array order
+// Fisher–Yates (aka Knuth) Shuffle.
 const shuffleArray = function (arr) {
     arr.map((num, index) => {
         let randomIndex = Math.floor(Math.random() * index);
