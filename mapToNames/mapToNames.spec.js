@@ -10,7 +10,8 @@ describe("mapToNames", function() {
         let mary = { name: "Mary", age: 28 };
 
         let users = [ john, pete, mary ];
+        mapToNames(users);
 
-        assert.deepEqual(mapToNames(users), ['John','Pete','Mary' ]);
+        assert.deepEqual(users, ['John','Pete','Mary' ]);
     });
   });
