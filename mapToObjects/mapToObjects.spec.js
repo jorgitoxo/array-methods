@@ -10,10 +10,10 @@ describe("mapToObjects", function() {
         let mary = { name: "Mary", surname: "Key", id: 3 };
 
         let users = [ john, pete, mary ];
-        
         let usersMapped = mapToObjects(users);
 
         assert.deepEqual(usersMapped[0].id, 1);
+        assert.deepEqual(users[0].id, 1);
     });
 
     it("returns the correct full name", function() {
@@ -23,9 +23,9 @@ describe("mapToObjects", function() {
         let mary = { name: "Mary", surname: "Key", id: 3 };
 
         let users = [ john, pete, mary ];
-        
         let usersMapped = mapToObjects(users);
 
         assert.deepEqual(usersMapped[0].fullName, 'John Smith');
+        assert(users[0].fullName === undefined);
     });
   });
