@@ -5,7 +5,7 @@ const filterRangeInPlace = function (arr, num1, num2) {
             arr.splice(index, 1)
     }, null);
     // initial value (null) is supplied to reduceRight,
-    // otherwise the last element in the array will be taken as initial value and skipped
+    // otherwise the last element in the array is taken as initial value and skipped
 }
 
 // Do not edit below this line
